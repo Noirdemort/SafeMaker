@@ -40,6 +40,10 @@ The average time for generating one should be anywhere between 5 to 20 seconds.
 **Q4.** How can I sync it across my multiple devices or when I change my device?  
 **Ans.** You cant. Passwords are discardable entities. Dont be lazy... change them when you change your device. Also you can get the same ones if you use the same data again.  
 
+
+**Q5.** Why is there no security option like TouchID or some other fuckery?  
+**Ans.** I will integrate if number of users grow considerably or if you really need it.  
+
 ---
 
 Finally, feel free to contribute.
