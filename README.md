@@ -7,7 +7,7 @@ Basically, This app uses
   - The sitename
   - Date of Birth (Or basically any date that you can remember)
  
-THIS APP PRODUCES REPRODUCIBLE PASSWORDS, So as long as you remember everything you entered you can regenerate those passwords.
+THIS APP PRODUCES REPRODUCIBLE PASSWORDS, So as long as you remember everything (the master password, site link, date of birth) you entered you can regenerate those passwords.
 
 
 
