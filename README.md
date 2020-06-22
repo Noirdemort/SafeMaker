@@ -27,16 +27,16 @@ THIS APP PRODUCES REPRODUCIBLE PASSWORDS, So as long as you remember everything 
 
 **Q1.** The app seems to run slow?  
 **Ans.** Yes, it is by design. If app is generating passwords too fast... contact the author. The author will provide you with your system optimized iteration.
-The average time for generating one should be anywhere between 5 to 20 seconds.
+The average time for generating one should be anywhere between 5 to 20 seconds.  
 
-**Q2.** This app is cool but I cant find its counterpart on App Store?
-**Ans.** You wont until you pay me to buy a developer account and maintain it.
+**Q2.** This app is cool but I cant find its counterpart on App Store?  
+**Ans.** You wont until you pay me to buy a developer account and maintain it.  
 
-**Q3.** Why this UI sucks?
-**Ans.** I dont give a fuck.
+**Q3.** Why this UI sucks?  
+**Ans.** I dont give a fuck.  
 
-**Q4.** How can I sync it across my multiple devices or when I change my device?
-**Ans.** You cant. Passwords are discardable entities. Dont be lazy... change them when you change your device. Also you can get the same ones if you use the same data again.
+**Q4.** How can I sync it across my multiple devices or when I change my device?  
+**Ans.** You cant. Passwords are discardable entities. Dont be lazy... change them when you change your device. Also you can get the same ones if you use the same data again.  
 
 ---
 
