@@ -32,6 +32,8 @@ The average time for generating one should be anywhere between 5 to 20 seconds.
 **Q2.** This app is cool but I cant find its counterpart on App Store?  
 **Ans.** You wont until you pay me to buy a developer account and maintain it.  
 
+> 2560 to 3072 number of iterations are good enough.
+
 **Q3.** Why this UI sucks?  
 **Ans.** I dont give a fuck.  
 

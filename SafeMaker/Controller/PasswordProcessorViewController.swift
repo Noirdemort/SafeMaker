@@ -144,7 +144,7 @@ func getDerivedPassword(masterPassword: String, url: String, dateString: String)
 
 	do {
 
-		let key = try PKCS5.PBKDF2(password: password, salt: salt, iterations: 2560, keyLength: 128, variant: .sha512).calculate()
+		let key = try PKCS5.PBKDF2(password: password, salt: salt, iterations: 4096, keyLength: 128, variant: .sha512).calculate()
 		
 		var shasum = SHA3(variant: .sha512)
 		_ = try shasum.update(withBytes: key)
