@@ -3,29 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5C101A26249F432F00C3BDFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A25249F432F00C3BDFE /* AppDelegate.swift */; };
 		5C101A28249F432F00C3BDFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A27249F432F00C3BDFE /* SceneDelegate.swift */; };
-		5C101A2A249F432F00C3BDFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A29249F432F00C3BDFE /* ViewController.swift */; };
+		5C101A2A249F432F00C3BDFE /* PasswordProcessorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A29249F432F00C3BDFE /* PasswordProcessorViewController.swift */; };
 		5C101A2D249F432F00C3BDFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C101A2B249F432F00C3BDFE /* Main.storyboard */; };
 		5C101A30249F432F00C3BDFE /* SafeMaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A2E249F432F00C3BDFE /* SafeMaker.xcdatamodeld */; };
 		5C101A32249F433200C3BDFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C101A31249F433200C3BDFE /* Assets.xcassets */; };
 		5C101A35249F433200C3BDFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C101A33249F433200C3BDFE /* LaunchScreen.storyboard */; };
+		5C101A3F249F4CA000C3BDFE /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C101A3E249F4CA000C3BDFE /* CryptoSwift */; };
+		5C101A42249F646700C3BDFE /* Setup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C101A40249F646700C3BDFE /* Setup.storyboard */; };
+		5C101A5C249F834C00C3BDFE /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A5B249F834C00C3BDFE /* HistoryViewController.swift */; };
+		5C101A5E249F836A00C3BDFE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A5D249F836A00C3BDFE /* SettingsViewController.swift */; };
+		5C101A60249F838A00C3BDFE /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A5F249F838A00C3BDFE /* SetUpViewController.swift */; };
+		5C101A63249F8B4500C3BDFE /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C101A62249F8B4500C3BDFE /* Credential.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C101A22249F432F00C3BDFE /* SafeMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C101A25249F432F00C3BDFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C101A27249F432F00C3BDFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C101A29249F432F00C3BDFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C101A29249F432F00C3BDFE /* PasswordProcessorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordProcessorViewController.swift; sourceTree = "<group>"; };
 		5C101A2C249F432F00C3BDFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C101A2F249F432F00C3BDFE /* SafeMaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeMaker.xcdatamodel; sourceTree = "<group>"; };
 		5C101A31249F433200C3BDFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C101A34249F433200C3BDFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C101A36249F433200C3BDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C101A3C249F487500C3BDFE /* SafeMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SafeMaker.entitlements; sourceTree = "<group>"; };
+		5C101A41249F646700C3BDFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SafeMaker/Base.lproj/Setup.storyboard; sourceTree = "<group>"; };
+		5C101A5B249F834C00C3BDFE /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		5C101A5D249F836A00C3BDFE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5C101A5F249F838A00C3BDFE /* SetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		5C101A62249F8B4500C3BDFE /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C101A3F249F4CA000C3BDFE /* CryptoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +73,44 @@
 			children = (
 				5C101A25249F432F00C3BDFE /* AppDelegate.swift */,
 				5C101A27249F432F00C3BDFE /* SceneDelegate.swift */,
-				5C101A29249F432F00C3BDFE /* ViewController.swift */,
-				5C101A2B249F432F00C3BDFE /* Main.storyboard */,
-				5C101A31249F433200C3BDFE /* Assets.xcassets */,
-				5C101A33249F433200C3BDFE /* LaunchScreen.storyboard */,
+				5C101A3C249F487500C3BDFE /* SafeMaker.entitlements */,
 				5C101A36249F433200C3BDFE /* Info.plist */,
+				5C101A61249F8B3000C3BDFE /* Model */,
+				5C101A5A249F830B00C3BDFE /* Controller */,
+				5C101A59249F82F400C3BDFE /* View */,
+				5C101A31249F433200C3BDFE /* Assets.xcassets */,
 				5C101A2E249F432F00C3BDFE /* SafeMaker.xcdatamodeld */,
 			);
 			path = SafeMaker;
+			sourceTree = "<group>";
+		};
+		5C101A59249F82F400C3BDFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C101A40249F646700C3BDFE /* Setup.storyboard */,
+				5C101A2B249F432F00C3BDFE /* Main.storyboard */,
+				5C101A33249F433200C3BDFE /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C101A5A249F830B00C3BDFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C101A29249F432F00C3BDFE /* PasswordProcessorViewController.swift */,
+				5C101A5B249F834C00C3BDFE /* HistoryViewController.swift */,
+				5C101A5D249F836A00C3BDFE /* SettingsViewController.swift */,
+				5C101A5F249F838A00C3BDFE /* SetUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C101A61249F8B3000C3BDFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C101A62249F8B4500C3BDFE /* Credential.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +129,9 @@
 			dependencies = (
 			);
 			name = SafeMaker;
+			packageProductDependencies = (
+				5C101A3E249F4CA000C3BDFE /* CryptoSwift */,
+			);
 			productName = SafeMaker;
 			productReference = 5C101A22249F432F00C3BDFE /* SafeMaker.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 5C101A19249F432F00C3BDFE;
+			packageReferences = (
+				5C101A3D249F4CA000C3BDFE /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 5C101A23249F432F00C3BDFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C101A42249F646700C3BDFE /* Setup.storyboard in Resources */,
 				5C101A35249F433200C3BDFE /* LaunchScreen.storyboard in Resources */,
 				5C101A32249F433200C3BDFE /* Assets.xcassets in Resources */,
 				5C101A2D249F432F00C3BDFE /* Main.storyboard in Resources */,
@@ -141,10 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C101A2A249F432F00C3BDFE /* ViewController.swift in Sources */,
+				5C101A2A249F432F00C3BDFE /* PasswordProcessorViewController.swift in Sources */,
 				5C101A30249F432F00C3BDFE /* SafeMaker.xcdatamodeld in Sources */,
+				5C101A60249F838A00C3BDFE /* SetUpViewController.swift in Sources */,
 				5C101A26249F432F00C3BDFE /* AppDelegate.swift in Sources */,
+				5C101A5C249F834C00C3BDFE /* HistoryViewController.swift in Sources */,
 				5C101A28249F432F00C3BDFE /* SceneDelegate.swift in Sources */,
+				5C101A63249F8B4500C3BDFE /* Credential.swift in Sources */,
+				5C101A5E249F836A00C3BDFE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +219,14 @@
 				5C101A34249F433200C3BDFE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5C101A40249F646700C3BDFE /* Setup.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C101A41249F646700C3BDFE /* Base */,
+			);
+			name = Setup.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -288,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeMaker/SafeMaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
 				INFOPLIST_FILE = SafeMaker/Info.plist;
@@ -297,6 +360,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.d3lt4.SafeMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SafeMaker/SafeMaker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GLBR3SXF68;
 				INFOPLIST_FILE = SafeMaker/Info.plist;
@@ -315,6 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.d3lt4.SafeMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +408,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C101A3D249F4CA000C3BDFE /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C101A3E249F4CA000C3BDFE /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C101A3D249F4CA000C3BDFE /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5C101A2E249F432F00C3BDFE /* SafeMaker.xcdatamodeld */ = {

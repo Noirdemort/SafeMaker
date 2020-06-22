@@ -80,3 +80,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+
+let db = UIApplication.shared.delegate as! AppDelegate
+let context = db.persistentContainer.viewContext
